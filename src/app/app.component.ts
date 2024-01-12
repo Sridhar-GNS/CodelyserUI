@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CandidateView';
+  showInstructions = true;
+
+  proceed()
+  {
+    this.showInstructions=false;
+  }
 }
